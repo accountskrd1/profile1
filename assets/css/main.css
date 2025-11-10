@@ -1,10 +1,4 @@
-/**
-* Template Name: EasyFolio
-* Template URL: https://bootstrapmade.com/easyfolio-bootstrap-portfolio-template/
-* Updated: Feb 21 2025 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # Font & Color Variables
@@ -35,6 +29,24 @@
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #0a0f14; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #e87532; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+
+/* Only for navigation text selection */
+.navmenu ::selection {
+    background-color: orange;
+    color: white;
+}
+
+/* For specific elements */
+h1::selection, h2::selection, h3::selection {
+    background-color: orange;
+    color: white;
+}
+
+p::selection {
+    background-color: orange;
+    color: white;
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
